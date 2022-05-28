@@ -4,6 +4,8 @@ export const Container = styled.div`
     max-width: 1170px;
     margin: 0 auto;   
 
+    padding-bottom: 64px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,20 +31,35 @@ export const Container = styled.div`
 
     }
     
+    form{
+        display: flex;
+        align-items: center;
 
-    input {
-        background-color: var(--dark-bg);
-        color: var(--light-purple);
-        border: 0;
+        input {
+            background-color: var(--dark-bg);
+            color: var(--light-purple);
+            border: 0;
 
-        padding:0.875rem 0 0.875rem 1.5625rem;
+            padding:0.875rem 0 0.875rem 1.5625rem;
+        }
+        
+        button{
+            background-color: var(--button-bg);
+            border: 0;
+            padding: 0.5rem 0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 70px;
+
+            transition: filter 0.2s;
+
+            &:hover {
+                filter: brightness(0.8)
+            }
+        }
     }
-
-    button{
-        background-color: var(--button-bg);
-        border: 0;
-        /* height: 42px; */
-    }
-
 `
 

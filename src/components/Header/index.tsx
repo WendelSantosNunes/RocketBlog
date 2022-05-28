@@ -18,7 +18,7 @@ export function Header(){
                 <label>
                     <input type="text" name="name" placeholder="Buscar" />
                 </label>
-                <button>Enviar <img src={search} alt="Search" /></button>
+                <button><img src={search} alt="Search" /></button>
             </form>
         </Container>
     )

@@ -5,4 +5,6 @@ export const Container = styled.div`
 
     background-color: var(--purple-bg);
     color: #fff;
+
+    border-bottom: 6px solid var(--green);
 `
