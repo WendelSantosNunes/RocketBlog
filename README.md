@@ -1,7 +1,8 @@
 # RocketBlog
 
-![Página Principal](./.github/pagina1.png)
+![Página Principal](./.github/Captura%20de%20tela%20de%202022-05-30%2021-37-08.png)
 
+---
 ## 💻 **Tecnologias**
 
 Esse projeto foi desenvolvido com essas tecnologias:
